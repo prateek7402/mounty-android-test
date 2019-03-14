@@ -1,0 +1,18 @@
+The project succesfully implements the concepts of the SQLite database and the shared prefferences to create the database of the 
+instored contacts. All the detials of the contacts are been saved in the database helper class.
+Primarly the splash screen will occur which is been implemented using the threads.
+Then after that there is a state checker mechanism which checks the state of the PIN mechanism that whether the PIN is already present 
+in the system or not.
+If the value of the PIN is already there then the mechanism directly shifts the enter pin activity and if not then the mechanism takes
+the control to the create PIN activity.
+The state of the PIN and the values like teh PIN itself and the emergency PIN reset value is stored in a shared prefference which is present 
+in  a seperate class.
+The once the user sets up the PIN and emergency key word to reset password. The user is asked to again enter PIN for secure login.
+If the user chooses to reset the PIN the user is asked the emergency password to reset the PIN.
+And if the user inputs the right data then it directs the user to the enter PIN activity again.
+Now after login initially there is no data stored in the database hence the user will have to add data using the floating buttons with
+add symbol. Which will invoke an alert dialog through which the user can enter the data and save it on the database.
+Once the save the the input is invoked the dispaly dunction is also invoked which will certainly refresh the given list view 
+with the newly added data.
+There are many more features that are gonna be added soon in this project, like connectivity with the whatsapp and paytm,
+user uplaod their pictures and add notes for the individual person in teh contact.
